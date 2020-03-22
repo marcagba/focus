@@ -2,6 +2,7 @@
   "name": "focus",
   "version": "0.1.0",
   "private": true,
+  "description": "1. Decide what to do\n2. Launch the timer\n3. Get shit done\n4. Pause\n5. Repeat",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -9,15 +10,17 @@
   },
   "dependencies": {
     "@vue/composition-api": "0.3.1",
-    "vue": "^2.5.22"
+    "vue": "^3.0.0-alpha.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "3.6.0",
     "@vue/cli-plugin-eslint": "3.6.0",
     "@vue/cli-service": "3.6.0",
+    "@vue/compiler-sfc": "^3.0.0-alpha.4",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
+    "vue-cli-plugin-vue-next": "~0.0.4",
     "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
@@ -44,6 +47,5 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "keywords": [],
-  "description": "1. Decide what to do\n2. Launch the timer\n3. Get shit done\n4. Pause\n5. Repeat"
+  "keywords": []
 }
