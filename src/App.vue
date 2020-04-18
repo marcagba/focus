@@ -1,19 +1,23 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png">
-    <HelloWorld msg="Hello Focus App!" />
+      <h1> Focus !</h1>
+      <search-bar />
+        <timer />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import SearchBar from "@/components/SearchBar";
+import Timer from "@/components/Timer";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    SearchBar,
+      Timer,
   }
-};
+
+}
 </script>
 
 <style>
@@ -25,4 +29,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+:root {}
 </style>
